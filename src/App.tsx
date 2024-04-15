@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <></>;
+  return <Button colorScheme="blue">Button</Button>;
 }
 
 export default App;

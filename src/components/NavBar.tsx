@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     //Horizontal Stack
     <HStack>
-      <Image src={logo} />
+      <Image src={logo} boxSize="60px" />
       <Text>NavBar</Text>
     </HStack>
   );

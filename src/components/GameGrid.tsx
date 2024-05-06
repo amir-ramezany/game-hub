@@ -10,7 +10,7 @@ interface Props {
 }
 const GameGrid = ({ gameQury }: Props) => {
   const { data, error, isLoading } = useGames(gameQury);
-  const skeletons = [1, 2, 3, 4, 5, 6];
+  const skeletons = [1, 2, 3, 4, 5, 6, 7, 8];
   if (error) return <Text>{error}</Text>;
   return (
     <SimpleGrid

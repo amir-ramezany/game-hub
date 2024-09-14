@@ -42,8 +42,8 @@ export interface Game {
   id: number;
   name: string;
   slug: string;
-  genre: Genre[];
-  publisher: Publisher[];
+  genres: Genre[];
+  publishers: Publisher[];
   description_raw: string;
   background_image: string;
   parent_platforms: { platform: platforms }[];
